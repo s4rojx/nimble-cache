@@ -1,5 +1,11 @@
 # Nimble Cache
 
+![Java](https://img.shields.io/badge/Java-21-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![Tests](https://img.shields.io/badge/Tests-61%20Passed-success.svg)
+![Benchmark](https://img.shields.io/badge/Benchmark-JMH-blueviolet.svg)
+
 A high-performance, thread-safe in-memory caching engine built in Java 21. Engineered for high-concurrency production workloads, it combines 16-way segmented lock striping to eliminate global lock contention, pluggable eviction policies (**LRU**, **LFU**, and **Window-TinyLFU** with Count-Min Sketch admission filtering), race-safe hybrid TTL expiration, single-flight request coalescing to eliminate cache stampedes, and deep observability with optional Micrometer integration.
 
 ---
