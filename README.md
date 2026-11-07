@@ -2,7 +2,6 @@
 
 ![Java](https://img.shields.io/badge/Java-21-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
 ![Tests](https://img.shields.io/badge/Tests-61%20Passed-success.svg)
 ![Benchmark](https://img.shields.io/badge/Benchmark-JMH-blueviolet.svg)
 
