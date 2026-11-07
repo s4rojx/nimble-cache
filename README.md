@@ -1,4 +1,4 @@
-# ConcurrentLRUCache
+# Nimble Cache
 
 A high-performance, thread-safe in-memory caching engine built in Java 21. Engineered for high-concurrency production workloads, it combines 16-way segmented lock striping to eliminate global lock contention, pluggable eviction policies (**LRU**, **LFU**, and **Window-TinyLFU** with Count-Min Sketch admission filtering), race-safe hybrid TTL expiration, single-flight request coalescing to eliminate cache stampedes, and deep observability with optional Micrometer integration.
 
